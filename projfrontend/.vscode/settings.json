@@ -1,0 +1,7 @@
+{
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showSuggestionsAsSnippets": true
+}
