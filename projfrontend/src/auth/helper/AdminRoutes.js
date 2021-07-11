@@ -3,7 +3,6 @@ import { Redirect, Route } from "react-router-dom";
 import { isAuthenticated } from ".";
 
 const AdminRoute = ({ component: Component, ...rest }) => {
-  let auth = useAuth();
   return (
     <Route
       {...rest}
